@@ -1,0 +1,18 @@
+controller:
+  metrics:
+    serviceMonitor:
+      enabled: false
+    prometheusRule:
+      enabled: false    
+  hostPort:
+    enabled: false
+    ports:
+      http: 80
+      https: 443
+  ingressClassResource:
+    name: nginx-external
+    default: true
+  service:
+    externalTrafficPolicy: "Local"
+    type: LoadBalancer
+
