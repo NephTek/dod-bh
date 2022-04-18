@@ -13,6 +13,6 @@ openldap\
 kube-oidc-proxy\
 oauth2-proxy\
 keycloak\
-logging\
+logging
 
 This is part of what we have dubbed "IDOP" or "Internal DevOps Platform". It allows for completely local development on a kubernetes cluster that mimics an enterprise environment.
